@@ -1,13 +1,12 @@
-import Header from '../components/Header';
+import Layout from '../components/Layout';
 
 
 const About = () => {
     
     return (
-        <div>
-            <Header />
-            <h1>This will be my About page.</h1>
-        </div>
+       <Layout>
+           <h1>Here will be a fantastic description of me.</h1>
+       </Layout>
     );
 }
 
