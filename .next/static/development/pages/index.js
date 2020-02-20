@@ -79,40 +79,48 @@ var _jsxFileName = "/Users/thueter/Development/personal-site/resume-site/compone
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
+var jumboStyle = {
+  backgroundImage: "url('/battery.png')",
+  backgroundSize: 'cover',
+  height: 500,
+  textAlign: 'right',
+  color: 'white'
+};
 
 var Jumbo = function Jumbo(props) {
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 15
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Jumbotron"], {
     fluid: true,
+    style: jumboStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 16
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
     fluid: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 17
     },
     __self: this
   }, __jsx("h1", {
     className: "display-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 18
     },
     __self: this
   }, "Tyler Hueter"), __jsx("p", {
     className: "lead",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 19
     },
     __self: this
   }, "Welcome to my site. Take it for a spin and learn a bit about me."))));
