@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import Layout from '../components/Layout'
 import Head from 'next/head';
+import Jumbo from "../components/Jumbo";
 
 const Index = () => {
 
@@ -15,7 +16,7 @@ const Index = () => {
           />
         </Head>
         <Layout>
-          <h1>This is my future Resume Site</h1>
+          <Jumbo />
         </Layout>
       </div>
     );
