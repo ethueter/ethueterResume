@@ -243,9 +243,8 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 const layoutStyle = {
-  margin: 20,
-  padding: 20,
-  border: '1px solid #DDD'
+  margin: 10,
+  padding: 10
 };
 
 const Layout = props => {
@@ -253,13 +252,13 @@ const Layout = props => {
     style: layoutStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 12
     },
     __self: undefined
   }, __jsx(_Nav__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 13
     },
     __self: undefined
   }), props.children);
