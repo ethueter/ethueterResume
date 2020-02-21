@@ -29,6 +29,21 @@ const Example = (props) => {
                     <NavLink>About</NavLink>
                 </Link>
               </NavItem>
+            <NavItem>
+              <Link href="/projects">
+                <NavLink>Projects</NavLink>
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link href="/work">
+                <NavLink>Work</NavLink>
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link href="/hobbies">
+                <NavLink>Hobbies</NavLink>
+              </Link>
+            </NavItem>
             </Nav>
             <NavbarText>Simple Text</NavbarText>
         </Navbar>
