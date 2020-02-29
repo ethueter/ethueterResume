@@ -93,6 +93,44 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "./components/CardContainer.js":
+/*!*************************************!*\
+  !*** ./components/CardContainer.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! reactstrap */ "reactstrap");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/thueter/Development/personal-site/resume-site/components/CardContainer.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+const CardContainer = props => {
+  return __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["CardGroup"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: undefined
+  }, __jsx("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: undefined
+  }, "Test"));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (CardContainer);
+
+/***/ }),
+
 /***/ "./components/Header.js":
 /*!******************************!*\
   !*** ./components/Header.js ***!
@@ -2134,9 +2172,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _components_Jumbo__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Jumbo */ "./components/Jumbo.js");
+/* harmony import */ var _components_CardContainer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/CardContainer */ "./components/CardContainer.js");
 var _jsxFileName = "/Users/thueter/Development/personal-site/resume-site/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -2146,19 +2186,19 @@ const Index = () => {
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 10
     },
     __self: undefined
   }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_3___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
     },
     __self: undefined
   }, __jsx("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
     },
     __self: undefined
   }, "Tyler's Personal Site"), __jsx("meta", {
@@ -2167,22 +2207,28 @@ const Index = () => {
     key: "resume",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 13
     },
     __self: undefined
   })), __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 19
     },
     __self: undefined
   }, __jsx(_components_Jumbo__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 20
     },
     __self: undefined
-  })));
+  })), __jsx(_components_CardContainer__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: undefined
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);

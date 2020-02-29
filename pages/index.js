@@ -2,6 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Layout from '../components/Layout'
 import Head from 'next/head';
 import Jumbo from "../components/Jumbo";
+import CardContainer from '../components/CardContainer';
 
 const Index = () => {
 
@@ -18,6 +19,7 @@ const Index = () => {
         <Layout>
           <Jumbo />
         </Layout>
+        <CardContainer></CardContainer>
       </div>
     );
 
