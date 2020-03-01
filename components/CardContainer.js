@@ -1,14 +1,22 @@
 import React from 'react';
-import { CardGroup } from 'reactstrap';
+import { CardGroup, Card } from 'reactstrap';
 import IndexCard from './IndexCard';
 
 const CardContainer = (props) => {
     
     return (
-        <CardGroup>
-            <IndexCard />
-        </CardGroup>
-    )
+      <CardGroup>
+        <Card>
+          <IndexCard />
+        </Card>
+        <Card>
+          <IndexCard />
+        </Card>
+        <Card>
+          <IndexCard />
+        </Card>
+      </CardGroup>
+    );
 };
 
 export default CardContainer;

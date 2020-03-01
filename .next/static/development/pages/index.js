@@ -26,13 +26,43 @@ var CardContainer = function CardContainer(props) {
       lineNumber: 8
     },
     __self: this
-  }, __jsx(_IndexCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Card"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  }));
+  }, __jsx(_IndexCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Card"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, __jsx(_IndexCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Card"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, __jsx(_IndexCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  })));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (CardContainer);
@@ -135,7 +165,7 @@ var IndexCard = function IndexCard(props) {
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["CardImg"], {
     top: true,
     width: "100%",
-    src: "/assets/318x180.svg",
+    src: "url('chiefshelmet.jpeg')",
     alt: "Card image cap",
     __source: {
       fileName: _jsxFileName,
