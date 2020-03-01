@@ -129,6 +129,8 @@ const CardContainer = props => {
   }, __jsx(_IndexCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
     dest: "/work",
     title: "Work History",
+    pic: "/cistern1.jpg",
+    desc: "Arts, Politics, Transportation...take your pick!",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
@@ -137,29 +139,33 @@ const CardContainer = props => {
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Card"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 17
     },
     __self: undefined
   }, __jsx(_IndexCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
     dest: "/projects",
     title: "Projects",
+    pic: "/ashley-259.jpg",
+    desc: "Take a tour of my latest projects.",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 18
     },
     __self: undefined
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Card"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 24
     },
     __self: undefined
   }, __jsx(_IndexCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
     dest: "/hobbies",
     title: "Hobbies",
+    pic: "/follykayak.jpg",
+    desc: "Spare time...Yes Please!",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 25
     },
     __self: undefined
   })));
@@ -255,7 +261,9 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 const IndexCard = ({
   dest,
-  title
+  title,
+  pic,
+  desc
 }) => {
   return __jsx("div", {
     __source: {
@@ -272,7 +280,7 @@ const IndexCard = ({
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["CardImg"], {
     top: true,
     width: "100%",
-    src: "url('chiefshelmet.jpeg')",
+    src: pic,
     alt: "Card image cap",
     __source: {
       fileName: _jsxFileName,
@@ -286,24 +294,19 @@ const IndexCard = ({
     },
     __self: undefined
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], {
+    tag: "h2",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
     },
     __self: undefined
-  }, title), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["CardSubtitle"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: undefined
-  }, "Card subtitle"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["CardText"], {
+  }, title), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["CardText"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     },
     __self: undefined
-  }, "Some quick example text to build on the card title and make up the bulk of the card's content."), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, desc), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: dest,
     __source: {
       fileName: _jsxFileName,
@@ -316,7 +319,7 @@ const IndexCard = ({
       lineNumber: 18
     },
     __self: undefined
-  }, "Button")))));
+  }, "Take a Look")))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (IndexCard);

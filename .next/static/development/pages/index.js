@@ -35,6 +35,8 @@ var CardContainer = function CardContainer(props) {
   }, __jsx(_IndexCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
     dest: "/work",
     title: "Work History",
+    pic: "/cistern1.jpg",
+    desc: "Arts, Politics, Transportation...take your pick!",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
@@ -43,29 +45,33 @@ var CardContainer = function CardContainer(props) {
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Card"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 17
     },
     __self: this
   }, __jsx(_IndexCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
     dest: "/projects",
     title: "Projects",
+    pic: "/ashley-259.jpg",
+    desc: "Take a tour of my latest projects.",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 18
     },
     __self: this
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Card"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 24
     },
     __self: this
   }, __jsx(_IndexCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
     dest: "/hobbies",
     title: "Hobbies",
+    pic: "/follykayak.jpg",
+    desc: "Spare time...Yes Please!",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 25
     },
     __self: this
   })));
@@ -160,7 +166,9 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 var IndexCard = function IndexCard(_ref) {
   var dest = _ref.dest,
-      title = _ref.title;
+      title = _ref.title,
+      pic = _ref.pic,
+      desc = _ref.desc;
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
@@ -176,7 +184,7 @@ var IndexCard = function IndexCard(_ref) {
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["CardImg"], {
     top: true,
     width: "100%",
-    src: "url('chiefshelmet.jpeg')",
+    src: pic,
     alt: "Card image cap",
     __source: {
       fileName: _jsxFileName,
@@ -190,24 +198,19 @@ var IndexCard = function IndexCard(_ref) {
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], {
+    tag: "h2",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
     },
     __self: this
-  }, title), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["CardSubtitle"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, "Card subtitle"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["CardText"], {
+  }, title), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["CardText"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     },
     __self: this
-  }, "Some quick example text to build on the card title and make up the bulk of the card's content."), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, desc), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: dest,
     __source: {
       fileName: _jsxFileName,
@@ -220,7 +223,7 @@ var IndexCard = function IndexCard(_ref) {
       lineNumber: 18
     },
     __self: this
-  }, "Button")))));
+  }, "Take a Look")))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (IndexCard);

@@ -5,17 +5,17 @@ import {
 } from 'reactstrap';
 import Link from 'next/link';
 
-const IndexCard = ({ dest, title }) => {
+const IndexCard = ({ dest, title, pic, desc }) => {
     return (
         <div>
             <Card>
-                <CardImg top width="100%" src="url('chiefshelmet.jpeg')" alt="Card image cap" />
+                <CardImg top width="100%" src={pic} alt="Card image cap" />
                 <CardBody>
-                    <CardTitle>{title}</CardTitle>
-                    <CardSubtitle>Card subtitle</CardSubtitle>
-                    <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+                    <CardTitle tag="h2" >{title}</CardTitle>
+                    
+                    <CardText>{desc}</CardText>
                     <Link href={dest}>
-                        <Button>Button</Button>
+                        <Button>Take a Look</Button>
                     </Link>
                     
                 </CardBody>
