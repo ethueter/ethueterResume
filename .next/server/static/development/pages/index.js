@@ -127,6 +127,8 @@ const CardContainer = props => {
     },
     __self: undefined
   }, __jsx(_IndexCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    dest: "/work",
+    title: "Work History",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
@@ -139,6 +141,8 @@ const CardContainer = props => {
     },
     __self: undefined
   }, __jsx(_IndexCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    dest: "/projects",
+    title: "Projects",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
@@ -151,6 +155,8 @@ const CardContainer = props => {
     },
     __self: undefined
   }, __jsx(_IndexCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    dest: "/hobbies",
+    title: "Hobbies",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
@@ -239,22 +245,28 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! reactstrap */ "reactstrap");
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "/Users/thueter/Development/personal-site/resume-site/components/IndexCard.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-const IndexCard = props => {
+
+const IndexCard = ({
+  dest,
+  title
+}) => {
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 10
     },
     __self: undefined
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Card"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
     },
     __self: undefined
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["CardImg"], {
@@ -264,40 +276,47 @@ const IndexCard = props => {
     alt: "Card image cap",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
     },
     __self: undefined
   }), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["CardBody"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 13
     },
     __self: undefined
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: undefined
-  }, "Card title"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["CardSubtitle"], {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 14
     },
     __self: undefined
-  }, "Card subtitle"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["CardText"], {
+  }, title), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["CardSubtitle"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: undefined
-  }, "Some quick example text to build on the card title and make up the bulk of the card's content."), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Button"], {
+  }, "Card subtitle"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["CardText"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     },
     __self: undefined
-  }, "Button"))));
+  }, "Some quick example text to build on the card title and make up the bulk of the card's content."), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: dest,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: undefined
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Button"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: undefined
+  }, "Button")))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (IndexCard);

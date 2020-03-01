@@ -7,13 +7,13 @@ const CardContainer = (props) => {
     return (
       <CardGroup>
         <Card>
-          <IndexCard />
+          <IndexCard dest="/work" title="Work History" />
         </Card>
         <Card>
-          <IndexCard />
+                <IndexCard dest="/projects" title="Projects" />
         </Card>
         <Card>
-          <IndexCard />
+                <IndexCard dest="/hobbies" title="Hobbies" />
         </Card>
       </CardGroup>
     );
