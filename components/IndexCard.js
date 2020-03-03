@@ -9,7 +9,7 @@ const IndexCard = ({ dest, title, pic, desc }) => {
     return (
         <div>
             <Card>
-                <CardImg top width="100%" src={pic} alt="Card image cap" />
+                <CardImg top width="100%" height="200px" src={pic} alt="Card image cap" />
                 <CardBody>
                     <CardTitle tag="h2" >{title}</CardTitle>
                     

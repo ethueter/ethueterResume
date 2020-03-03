@@ -184,6 +184,7 @@ var IndexCard = function IndexCard(_ref) {
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["CardImg"], {
     top: true,
     width: "100%",
+    height: "200px",
     src: pic,
     alt: "Card image cap",
     __source: {
@@ -26459,13 +26460,13 @@ var Index = function Index() {
       lineNumber: 20
     },
     __self: this
-  })), __jsx(_components_CardContainer__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }), __jsx(_components_CardContainer__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 21
     },
     __self: this
-  }));
+  })));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);

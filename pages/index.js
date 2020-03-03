@@ -18,8 +18,9 @@ const Index = () => {
         </Head>
         <Layout>
           <Jumbo />
+          <CardContainer></CardContainer>
         </Layout>
-        <CardContainer></CardContainer>
+        
       </div>
     );
 
