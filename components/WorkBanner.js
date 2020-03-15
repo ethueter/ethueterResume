@@ -10,21 +10,18 @@ import { Jumbotron, Container } from 'reactstrap';
 // };
 
 
-const WorkBanner = ({ imageURL }) => {
+const WorkBanner = ({ imageURL, role, position, color }) => {
     return (
         <div>
             <Jumbotron fluid style={{
                 backgroundImage: `url(${imageURL})`,
                 backgroundSize: 'cover',
                 height: 300,
-                textAlign: 'right',
-                color: 'white'
+                textAlign: `${position}`,
+                color: `${color}`
             }} >
                 <Container fluid >
-                    <h1 className="display-3">Tyler Hueter</h1>
-                    <p className="lead">
-                        Welcome to my site. Take it for a spin and learn a bit about me.
-            </p>
+                    <h1 style={{ padding: '20px'}} >{role}</h1>
                 </Container>
             </Jumbotron>
         </div>
