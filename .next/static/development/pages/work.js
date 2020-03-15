@@ -21024,48 +21024,54 @@ var Work = function Work() {
       lineNumber: 19
     },
     __self: this
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
-    color: "primary",
-    onClick: toggle,
-    style: {
-      marginBottom: '1rem'
-    },
+  }, __jsx("h3", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
     },
     __self: this
-  }, "Toggle"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Collapse"], {
-    isOpen: isOpen,
+  }, "Managed daily operations for metropolitan transportation service with 50+ drivers and 25 vehicles serving Greater Charleston. Complied with local and state regulations set by SCORS and the City of Charleston."), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
+    color: "primary",
+    onClick: toggle,
+    style: {
+      marginBottom: '20px'
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
     },
     __self: this
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Card"], {
+  }, "View Details"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Collapse"], {
+    isOpen: isOpen,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
     },
     __self: this
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardBody"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Card"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
+    },
+    __self: this
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardBody"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
     },
     __self: this
   }, "This is where I will list my job responsibilities.")))), __jsx(_components_WorkBanner__WEBPACK_IMPORTED_MODULE_2__["default"], {
     imageURL: "/ketner1.jpeg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 30
     },
     __self: this
   }), __jsx(_components_WorkBanner__WEBPACK_IMPORTED_MODULE_2__["default"], {
     imageURL: "/orchestra1.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 31
     },
     __self: this
   })));

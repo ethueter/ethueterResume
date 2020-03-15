@@ -17,7 +17,8 @@ const Work = () => {
           <h1>My future work page.</h1>
             <WorkBanner imageURL="/taxi2.jpeg" />
             <div>
-                <Button color="primary" onClick={toggle} style={{ marginBottom: '1rem' }}>Toggle</Button>
+                    <h3>Managed daily operations for metropolitan transportation service with 50+ drivers and 25 vehicles serving Greater Charleston. Complied with local and state regulations set by SCORS and the City of Charleston.</h3>
+                <Button color="primary" onClick={toggle} style={{ marginBottom: '20px' }}>View Details</Button>
                 <Collapse isOpen={isOpen}>
                     <Card>
                         <CardBody>
