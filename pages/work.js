@@ -5,9 +5,9 @@ import Head from 'next/head';
 import { Collapse, Button, CardBody, Card, ListGroup, ListGroupItem } from 'reactstrap';
 
 const Work = () => {
-    const [ isOpen, setIsOpen ] = useState(false)
+    const [ isOpen, setIsOpen ] = useState(0)
 
-    const toggle = () => setIsOpen(!isOpen)
+    const toggle = (num) => setIsOpen(num)
     return (
       <div>
         <Head>
@@ -30,12 +30,12 @@ const Work = () => {
             </h3>
             <Button
               color="primary"
-              onClick={toggle}
+              onClick={()=> toggle(1)}
               style={{ marginBottom: "20px" }}
             >
               View Details
             </Button>
-            <Collapse isOpen={isOpen}>
+            <Collapse isOpen={isOpen === 1}>
               <Card>
                 <CardBody>
                   <ListGroup>
@@ -83,12 +83,12 @@ const Work = () => {
             </h3>
             <Button
               color="primary"
-              onClick={toggle}
+              onClick={() => toggle(2)}
               style={{ marginBottom: "20px" }}
             >
               View Details
             </Button>
-            <Collapse isOpen={isOpen}>
+            <Collapse isOpen={isOpen === 2}>
               <Card>
                 <CardBody>
                   <ListGroup>
@@ -121,16 +121,16 @@ const Work = () => {
           <div>
                     <h5>1998-2006</h5>
             <h3>
-              Oversaw all aspects of ticket sales and customer service for 17 day performing arts festival. Festival hosted 140+ performances across 12+ venues annually. Annual sales revenue exceeding $2M.
+              Oversaw all aspects of ticket sales and customer service for 17 day performing arts festival. Festival hosted 140+ performances across 12+ venues annually with sales revenue exceeding $2M.
             </h3>
             <Button
               color="primary"
-              onClick={toggle}
+              onClick={() => toggle(3)}
               style={{ marginBottom: "20px" }}
             >
               View Details
             </Button>
-            <Collapse isOpen={isOpen}>
+            <Collapse isOpen={isOpen === 3}>
               <Card>
                 <CardBody>
                   <ListGroup>

@@ -20971,12 +20971,12 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 var Work = function Work() {
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(0),
       isOpen = _useState[0],
       setIsOpen = _useState[1];
 
-  var toggle = function toggle() {
-    return setIsOpen(!isOpen);
+  var toggle = function toggle(num) {
+    return setIsOpen(num);
   };
 
   return __jsx("div", {
@@ -21033,7 +21033,9 @@ var Work = function Work() {
     __self: this
   }, "Managed daily operations for metropolitan transportation service with 50+ drivers and 25 vehicles serving Greater Charleston. Complied with local and state regulations set by SCORS and the City of Charleston."), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
     color: "primary",
-    onClick: toggle,
+    onClick: function onClick() {
+      return toggle(1);
+    },
     style: {
       marginBottom: "20px"
     },
@@ -21043,7 +21045,7 @@ var Work = function Work() {
     },
     __self: this
   }, "View Details"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Collapse"], {
-    isOpen: isOpen,
+    isOpen: isOpen === 1,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38
@@ -21127,7 +21129,9 @@ var Work = function Work() {
     __self: this
   }, "Planned and managed day-to-day operations of 15 paid staff and 50+ volunteers across two campaign offices. Oversaw field, intern, and phone banking programs by setting outreach goals, developing scripts, conducting training and providing necessary networks (phone, IT, transportation)."), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
     color: "primary",
-    onClick: toggle,
+    onClick: function onClick() {
+      return toggle(2);
+    },
     style: {
       marginBottom: "20px"
     },
@@ -21137,7 +21141,7 @@ var Work = function Work() {
     },
     __self: this
   }, "View Details"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Collapse"], {
-    isOpen: isOpen,
+    isOpen: isOpen === 2,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 91
@@ -21212,9 +21216,11 @@ var Work = function Work() {
       lineNumber: 123
     },
     __self: this
-  }, "Oversaw all aspects of ticket sales and customer service for 17 day performing arts festival. Festival hosted 140+ performances across 12+ venues annually. Annual sales revenue exceeding $2M."), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
+  }, "Oversaw all aspects of ticket sales and customer service for 17 day performing arts festival. Festival hosted 140+ performances across 12+ venues annually with sales revenue exceeding $2M."), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
     color: "primary",
-    onClick: toggle,
+    onClick: function onClick() {
+      return toggle(3);
+    },
     style: {
       marginBottom: "20px"
     },
@@ -21224,7 +21230,7 @@ var Work = function Work() {
     },
     __self: this
   }, "View Details"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Collapse"], {
-    isOpen: isOpen,
+    isOpen: isOpen === 3,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 133
