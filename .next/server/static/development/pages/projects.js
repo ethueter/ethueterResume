@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2054,12 +2054,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-/* harmony import */ var unfetch__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! unfetch */ "unfetch");
-/* harmony import */ var unfetch__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(unfetch__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var swr__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! swr */ "swr");
-/* harmony import */ var swr__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(swr__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! reactstrap */ "reactstrap");
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var unfetch__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! unfetch */ "unfetch");
+/* harmony import */ var unfetch__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(unfetch__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var swr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! swr */ "swr");
+/* harmony import */ var swr__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(swr__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! reactstrap */ "reactstrap");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_5__);
 var _jsxFileName = "/Users/thueter/Development/personal-site/resume-site/pages/projects.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -2067,10 +2069,11 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
 const API_URL = 'https://api.github.com';
 
 async function fetcher(path) {
-  const res = await unfetch__WEBPACK_IMPORTED_MODULE_2___default()(API_URL + path);
+  const res = await unfetch__WEBPACK_IMPORTED_MODULE_3___default()(API_URL + path);
   const json = await res.json();
   return json;
 }
@@ -2081,43 +2084,61 @@ const Projects = () => {
   const {
     data,
     error
-  } = swr__WEBPACK_IMPORTED_MODULE_3___default()('/users/ethueter/repos', fetcher);
+  } = swr__WEBPACK_IMPORTED_MODULE_4___default()('/users/ethueter/repos', fetcher);
   if (error) return __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: undefined
-  }, "Failed to load.");
-  if (!data) return __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Spinner"], {
-    color: "success",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: undefined
-  });
-  console.log(data);
-  return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  }, "Failed to load.");
+  if (!data) return __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Spinner"], {
+    color: "success",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 18
     },
     __self: undefined
-  }, __jsx("h1", {
+  });
+  console.log(data);
+  return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
     },
     __self: undefined
-  }, "My future projects page."));
+  }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: undefined
+  }, __jsx("title", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: undefined
+  }, "Tyler's Resume Site")), __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: undefined
+  }, __jsx("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: undefined
+  }, "My future projects page.")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Projects);
 
 /***/ }),
 
-/***/ 4:
+/***/ 6:
 /*!*********************************!*\
   !*** multi ./pages/projects.js ***!
   \*********************************/
@@ -2126,6 +2147,17 @@ const Projects = () => {
 
 module.exports = __webpack_require__(/*! /Users/thueter/Development/personal-site/resume-site/pages/projects.js */"./pages/projects.js");
 
+
+/***/ }),
+
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/head");
 
 /***/ }),
 

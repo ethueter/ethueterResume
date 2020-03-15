@@ -2130,47 +2130,68 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
 /* harmony import */ var _components_WorkBanner__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/WorkBanner */ "./components/WorkBanner.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_3__);
 var _jsxFileName = "/Users/thueter/Development/personal-site/resume-site/pages/work.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
 const Work = () => {
-  return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 8
+    },
+    __self: undefined
+  }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: undefined
+  }, __jsx("title", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: undefined
+  }, "Tyler's Resume Site")), __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
     },
     __self: undefined
   }, __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 13
     },
     __self: undefined
   }, "My future work page."), __jsx(_components_WorkBanner__WEBPACK_IMPORTED_MODULE_2__["default"], {
     imageURL: "/taxi2.jpeg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 14
     },
     __self: undefined
   }), __jsx(_components_WorkBanner__WEBPACK_IMPORTED_MODULE_2__["default"], {
     imageURL: "/ketner1.jpeg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 15
     },
     __self: undefined
   }), __jsx(_components_WorkBanner__WEBPACK_IMPORTED_MODULE_2__["default"], {
     imageURL: "/orchestra1.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 16
     },
     __self: undefined
-  }));
+  })));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Work);
@@ -2186,6 +2207,17 @@ const Work = () => {
 
 module.exports = __webpack_require__(/*! /Users/thueter/Development/personal-site/resume-site/pages/work.js */"./pages/work.js");
 
+
+/***/ }),
+
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/head");
 
 /***/ }),
 
