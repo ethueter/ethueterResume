@@ -2132,63 +2132,109 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_WorkBanner__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/WorkBanner */ "./components/WorkBanner.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! reactstrap */ "reactstrap");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "/Users/thueter/Development/personal-site/resume-site/pages/work.js";
-
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
 
+
+
 const Work = () => {
+  const {
+    0: isOpen,
+    1: setIsOpen
+  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false);
+
+  const toggle = () => setIsOpen(!isOpen);
+
   return __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: undefined
-  }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: undefined
-  }, __jsx("title", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: undefined
-  }, "Tyler's Resume Site")), __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: undefined
-  }, __jsx("h1", {
+  }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_3___default.a, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
+    },
+    __self: undefined
+  }, __jsx("title", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: undefined
+  }, "Tyler's Resume Site")), __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: undefined
+  }, __jsx("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
     },
     __self: undefined
   }, "My future work page."), __jsx(_components_WorkBanner__WEBPACK_IMPORTED_MODULE_2__["default"], {
     imageURL: "/taxi2.jpeg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 18
     },
     __self: undefined
-  }), __jsx(_components_WorkBanner__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: undefined
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
+    color: "primary",
+    onClick: toggle,
+    style: {
+      marginBottom: '1rem'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: undefined
+  }, "Toggle"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Collapse"], {
+    isOpen: isOpen,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: undefined
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Card"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: undefined
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardBody"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: undefined
+  }, "This is where I will list my job responsibilities.")))), __jsx(_components_WorkBanner__WEBPACK_IMPORTED_MODULE_2__["default"], {
     imageURL: "/ketner1.jpeg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 29
     },
     __self: undefined
   }), __jsx(_components_WorkBanner__WEBPACK_IMPORTED_MODULE_2__["default"], {
     imageURL: "/orchestra1.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 30
     },
     __self: undefined
   })));
