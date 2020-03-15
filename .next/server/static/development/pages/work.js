@@ -395,7 +395,8 @@ const WorkBanner = ({
   imageURL,
   role,
   position,
-  color
+  color,
+  padd
 }) => {
   return __jsx("div", {
     __source: {
@@ -426,7 +427,7 @@ const WorkBanner = ({
     __self: undefined
   }, __jsx("h1", {
     style: {
-      padding: '20px'
+      paddingTop: `${padd}`
     },
     __source: {
       fileName: _jsxFileName,
@@ -2177,6 +2178,7 @@ const Work = () => {
     role: "Partner/General Manager",
     position: "left",
     color: "white",
+    padd: "20px",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
@@ -2185,19 +2187,19 @@ const Work = () => {
   }), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 24
     },
     __self: undefined
   }, __jsx("h5", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 25
     },
     __self: undefined
   }, "2009-2018"), __jsx("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 26
     },
     __self: undefined
   }, "Managed daily operations for metropolitan transportation service with 50+ drivers and 25 vehicles serving Greater Charleston. Complied with local and state regulations set by SCORS and the City of Charleston."), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
@@ -2208,90 +2210,91 @@ const Work = () => {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 32
     },
     __self: undefined
   }, "View Details"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Collapse"], {
     isOpen: isOpen === 1,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 39
     },
     __self: undefined
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Card"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 40
     },
     __self: undefined
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardBody"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 41
     },
     __self: undefined
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["ListGroup"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 42
     },
     __self: undefined
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["ListGroupItem"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 43
     },
     __self: undefined
   }, "Hired and trained all drivers and dispatchers, growing from team of 8 in 2009 to 50+ within five years."), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["ListGroupItem"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 47
     },
     __self: undefined
   }, "Implemented and maintained the TaxiCaller dispatch system, enabling company to utilize multiple fare types, process payments, input and dispatch reservations, and track all ride data."), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["ListGroupItem"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 53
     },
     __self: undefined
   }, "Strategized use of multiple no-cost technical applications prior to the advent of dispatching software."), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["ListGroupItem"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 57
     },
     __self: undefined
   }, "Supported asset purchasing and disposal, procuring 25 vehicles, 100 cell phones and equipment."), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["ListGroupItem"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 61
     },
     __self: undefined
   }, "Built business still in operation today, reaching $2M in annual revenues by 2014.")))))), __jsx(_components_WorkBanner__WEBPACK_IMPORTED_MODULE_2__["default"], {
     imageURL: "/ketner1.jpeg",
     role: "Director of Operations",
     position: "right",
-    color: "green",
+    color: "antiquewhite",
+    padd: "160px",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 70
     },
     __self: undefined
   }), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 77
     },
     __self: undefined
   }, __jsx("h5", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 78
     },
     __self: undefined
   }, "March 2008 - December 2008"), __jsx("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77
+      lineNumber: 79
     },
     __self: undefined
   }, "Planned and managed day-to-day operations of 15 paid staff and 50+ volunteers across two campaign offices. Oversaw field, intern, and phone banking programs by setting outreach goals, developing scripts, conducting training and providing necessary networks (phone, IT, transportation)."), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
@@ -2302,83 +2305,84 @@ const Work = () => {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 86
     },
     __self: undefined
   }, "View Details"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Collapse"], {
     isOpen: isOpen === 2,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91
+      lineNumber: 93
     },
     __self: undefined
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Card"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92
+      lineNumber: 94
     },
     __self: undefined
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardBody"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93
+      lineNumber: 95
     },
     __self: undefined
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["ListGroup"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 96
     },
     __self: undefined
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["ListGroupItem"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 97
     },
     __self: undefined
   }, "Started as Scheduler and assumed Director-level responsibilities within three months on the job."), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["ListGroupItem"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 101
     },
     __self: undefined
   }, "Liaised with local and national government, party officials and donors to establish candidate schedule."), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["ListGroupItem"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103
+      lineNumber: 105
     },
     __self: undefined
   }, "Purchased and distributed campaign assets for branding and communications."), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["ListGroupItem"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107
+      lineNumber: 109
     },
     __self: undefined
   }, "Set up and maintained office LAN, including email accounts and firewall security.")))))), __jsx(_components_WorkBanner__WEBPACK_IMPORTED_MODULE_2__["default"], {
     imageURL: "/orchestra1.jpg",
     role: "Box Office Manager",
     color: "white",
+    padd: "20px",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116
+      lineNumber: 118
     },
     __self: undefined
   }), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 121
+      lineNumber: 124
     },
     __self: undefined
   }, __jsx("h5", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122
+      lineNumber: 125
     },
     __self: undefined
   }, "1998-2006"), __jsx("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123
+      lineNumber: 126
     },
     __self: undefined
   }, "Oversaw all aspects of ticket sales and customer service for 17 day performing arts festival. Festival hosted 140+ performances across 12+ venues annually with sales revenue exceeding $2M."), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
@@ -2389,62 +2393,62 @@ const Work = () => {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126
+      lineNumber: 129
     },
     __self: undefined
   }, "View Details"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Collapse"], {
     isOpen: isOpen === 3,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133
+      lineNumber: 136
     },
     __self: undefined
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Card"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134
+      lineNumber: 137
     },
     __self: undefined
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardBody"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135
+      lineNumber: 138
     },
     __self: undefined
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["ListGroup"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136
+      lineNumber: 139
     },
     __self: undefined
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["ListGroupItem"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 137
+      lineNumber: 140
     },
     __self: undefined
   }, "Hired and trained seasonal staff of 2 assistant managers and up to 25 ticketing apprentices."), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["ListGroupItem"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 140
+      lineNumber: 143
     },
     __self: undefined
   }, "Consistantly met or exceeded annual sales goals."), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["ListGroupItem"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 143
+      lineNumber: 146
     },
     __self: undefined
   }, "Set up and maintained ticketing system. Oversaw online, by phone and in person sales platforms."), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["ListGroupItem"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 146
+      lineNumber: 149
     },
     __self: undefined
   }, "Coordinated front of house usher program for 400 volunteers."), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["ListGroupItem"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 149
+      lineNumber: 152
     },
     __self: undefined
   }, "Understood teamwork...at 3am, helping out in other departments to prevent catastrophe, laughing with everyone around because we all knew there would be time to sleep when we were dead."))))))));

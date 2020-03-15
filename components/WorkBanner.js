@@ -10,7 +10,7 @@ import { Jumbotron, Container } from 'reactstrap';
 // };
 
 
-const WorkBanner = ({ imageURL, role, position, color }) => {
+const WorkBanner = ({ imageURL, role, position, color, padd }) => {
     return (
         <div>
             <Jumbotron fluid style={{
@@ -21,7 +21,7 @@ const WorkBanner = ({ imageURL, role, position, color }) => {
                 color: `${color}`
             }} >
                 <Container fluid >
-                    <h1 style={{ padding: '20px'}} >{role}</h1>
+                    <h1 style={{ paddingTop: `${padd}`}} >{role}</h1>
                 </Container>
             </Jumbotron>
         </div>

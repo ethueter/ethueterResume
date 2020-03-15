@@ -19,6 +19,7 @@ const Work = () => {
             role="Partner/General Manager"
             position="left"
             color="white"
+            padd="20px"
           />
           <div>
               <h5>2009-2018</h5>
@@ -70,7 +71,8 @@ const Work = () => {
             imageURL="/ketner1.jpeg"
             role="Director of Operations"
             position="right"
-            color="green"
+            color="antiquewhite"
+            padd="160px"
           />
           <div>
                     <h5>March 2008 - December 2008</h5>
@@ -117,6 +119,7 @@ const Work = () => {
             imageURL="/orchestra1.jpg"
             role="Box Office Manager"
             color="white"
+            padd="20px"
           />
           <div>
                     <h5>1998-2006</h5>
