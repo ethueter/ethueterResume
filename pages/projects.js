@@ -6,6 +6,7 @@ import {
     Spinner, Card, Button, CardImg, CardTitle, CardText, CardDeck,
     CardSubtitle, CardBody } from 'reactstrap';
 
+
 const API_URL = 'https://api.github.com';
 async function fetcher(path) {
     const res = await fetch(API_URL + path);
@@ -32,8 +33,8 @@ const Projects = () => {
                 <CardImg
                   top
                   width="100%"
-                  src="/assets/256x186.svg"
-                  alt="Card image cap"
+                  src="/react-redux.png"
+                  alt="react js logo"
                 />
                 <CardBody>
                   <CardTitle>The Analyst</CardTitle>
@@ -41,15 +42,24 @@ const Projects = () => {
                   <CardText>
                     This will be a description of the frontend of The Analyst Project
                   </CardText>
-                  <Button>Button</Button>
+                  <a href="http://the-analyst.herokuapp.com/">
+                    <Button 
+                    outline 
+                    color='primary'
+                    style={{ marginRight: '10px' }}
+                    >Site</Button>
+                  </a>
+                  <a href="https://github.com/ethueter/the-analyst-client">
+                    <Button outline color="primary">Repo</Button>
+                  </a>
                 </CardBody>
               </Card>
               <Card>
                 <CardImg
                   top
                   width="100%"
-                  src="/assets/256x186.svg"
-                  alt="Card image cap"
+                  src="/rubyonrails.png"
+                  alt="ruby and rails logos"
                 />
                 <CardBody>
                   <CardTitle>The Analyst</CardTitle>
@@ -57,15 +67,17 @@ const Projects = () => {
                   <CardText>
                     Description of the backend of The Analyst.
                   </CardText>
-                  <Button>Button</Button>
+                  <a href="">
+                    <Button outline color="primary">Repo</Button>
+                  </a>
                 </CardBody>
               </Card>
               <Card>
                 <CardImg
                   top
                   width="100%"
-                  src="/assets/256x186.svg"
-                  alt="Card image cap"
+                  src="/react.png"
+                  alt="React Native logo"
                 />
                 <CardBody>
                   <CardTitle>Task List</CardTitle>
@@ -73,23 +85,30 @@ const Projects = () => {
                   <CardText>
                     Description of the React Native app.
                   </CardText>
-                  <Button>Button</Button>
+                <a href="">
+                    <Button outline color="primary">Repo</Button>
+                </a>
                 </CardBody>
               </Card>
               <Card>
                 <CardImg
                   top
                   width="100%"
-                  src="/assets/256x186.svg"
+                  src="/javascript.png"
                   alt="Card image cap"
                 />
                 <CardBody>
-                  <CardTitle>Flatiron, The Game</CardTitle>
+                  <CardTitle className="text-center">Flatiron, The Game</CardTitle>
                   <CardSubtitle>Client Side</CardSubtitle>
                   <CardText>
                     Game logic and graphic design.
                   </CardText>
-                  <Button>Button</Button>
+                    <a href="">
+                        <Button 
+                        outline 
+                        color="primary"
+                        >Repo</Button>
+                    </a>
                 </CardBody>
               </Card>
             </CardDeck>

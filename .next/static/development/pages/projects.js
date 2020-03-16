@@ -22036,7 +22036,7 @@ var Projects = function Projects() {
   if (error) return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 20
     },
     __self: this
   }, "Failed to load.");
@@ -22044,7 +22044,7 @@ var Projects = function Projects() {
     color: "success",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 21
     },
     __self: this
   });
@@ -22052,230 +22052,285 @@ var Projects = function Projects() {
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 24
     },
     __self: this
   }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_3___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 25
     },
     __self: this
   }, __jsx("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 26
     },
     __self: this
   }, "Tyler's Resume Site")), __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 28
     },
     __self: this
   }, __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 29
     },
     __self: this
   }, "Featured Projects"), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 30
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardDeck"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 31
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Card"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 32
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardImg"], {
     top: true,
     width: "100%",
-    src: "/assets/256x186.svg",
-    alt: "Card image cap",
+    src: "/react-redux.png",
+    alt: "react js logo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 33
     },
     __self: this
   }), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardBody"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardTitle"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 39
     },
     __self: this
-  }, "The Analyst"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardSubtitle"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardTitle"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 40
     },
     __self: this
-  }, "Client Side"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardText"], {
+  }, "The Analyst"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardSubtitle"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 41
     },
     __self: this
-  }, "This will be a description of the frontend of The Analyst Project"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Button"], {
+  }, "Client Side"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardText"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 42
     },
     __self: this
-  }, "Button"))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Card"], {
+  }, "This will be a description of the frontend of The Analyst Project"), __jsx("a", {
+    href: "http://the-analyst.herokuapp.com/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 45
     },
     __self: this
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardImg"], {
-    top: true,
-    width: "100%",
-    src: "/assets/256x186.svg",
-    alt: "Card image cap",
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Button"], {
+    outline: true,
+    color: "primary",
+    style: {
+      marginRight: '10px'
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 46
     },
     __self: this
-  }), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardBody"], {
+  }, "Site")), __jsx("a", {
+    href: "https://github.com/ethueter/the-analyst-client",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 52
     },
     __self: this
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardTitle"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Button"], {
+    outline: true,
+    color: "primary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 53
     },
     __self: this
-  }, "The Analyst"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardSubtitle"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56
-    },
-    __self: this
-  }, "Server Side"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardText"], {
+  }, "Repo")))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Card"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 57
     },
     __self: this
-  }, "Description of the backend of The Analyst."), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Button"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 60
-    },
-    __self: this
-  }, "Button"))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Card"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 63
-    },
-    __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardImg"], {
     top: true,
     width: "100%",
-    src: "/assets/256x186.svg",
-    alt: "Card image cap",
+    src: "/rubyonrails.png",
+    alt: "ruby and rails logos",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
+  }), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardBody"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 64
     },
     __self: this
-  }), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardBody"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardTitle"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65
+    },
+    __self: this
+  }, "The Analyst"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardSubtitle"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66
+    },
+    __self: this
+  }, "Server Side"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardText"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67
+    },
+    __self: this
+  }, "Description of the backend of The Analyst."), __jsx("a", {
+    href: "",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 70
     },
     __self: this
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardTitle"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Button"], {
+    outline: true,
+    color: "primary",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 71
     },
     __self: this
-  }, "Task List"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardSubtitle"], {
+  }, "Repo")))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Card"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
-    },
-    __self: this
-  }, "Mobile ToDo List"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardText"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 73
-    },
-    __self: this
-  }, "Description of the React Native app."), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Button"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 76
-    },
-    __self: this
-  }, "Button"))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Card"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 75
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardImg"], {
     top: true,
     width: "100%",
-    src: "/assets/256x186.svg",
-    alt: "Card image cap",
+    src: "/react.png",
+    alt: "React Native logo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 76
     },
     __self: this
   }), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardBody"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86
+      lineNumber: 82
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardTitle"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87
+      lineNumber: 83
     },
     __self: this
-  }, "Flatiron, The Game"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardSubtitle"], {
+  }, "Task List"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardSubtitle"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84
+    },
+    __self: this
+  }, "Mobile ToDo List"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardText"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85
+    },
+    __self: this
+  }, "Description of the React Native app."), __jsx("a", {
+    href: "",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 88
     },
     __self: this
-  }, "Client Side"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardText"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Button"], {
+    outline: true,
+    color: "primary",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 89
     },
     __self: this
-  }, "Game logic and graphic design."), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Button"], {
+  }, "Repo")))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Card"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92
+      lineNumber: 93
     },
     __self: this
-  }, "Button")))))));
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardImg"], {
+    top: true,
+    width: "100%",
+    src: "/javascript.png",
+    alt: "Card image cap",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 94
+    },
+    __self: this
+  }), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardBody"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100
+    },
+    __self: this
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardTitle"], {
+    className: "text-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 101
+    },
+    __self: this
+  }, "Flatiron, The Game"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardSubtitle"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 102
+    },
+    __self: this
+  }, "Client Side"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardText"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 103
+    },
+    __self: this
+  }, "Game logic and graphic design."), __jsx("a", {
+    href: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 106
+    },
+    __self: this
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Button"], {
+    outline: true,
+    color: "primary",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 107
+    },
+    __self: this
+  }, "Repo"))))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Projects);
