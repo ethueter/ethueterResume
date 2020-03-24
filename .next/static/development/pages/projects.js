@@ -22168,6 +22168,7 @@ var Projects = function Projects() {
     },
     __self: this
   }, "Repo")))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Card"], {
+    className: "project-card",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 57
@@ -22190,12 +22191,14 @@ var Projects = function Projects() {
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardTitle"], {
+    className: "card-head",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 65
     },
     __self: this
   }, "The Analyst"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardSubtitle"], {
+    className: "card-subhead",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 66
@@ -22207,7 +22210,7 @@ var Projects = function Projects() {
       lineNumber: 67
     },
     __self: this
-  }, "Description of the backend of The Analyst."), __jsx("a", {
+  }, "The backend of The Analyst was put together using Ruby, and Rails to connect a Postgres DB. It also incorporates bcrypt and JSON Web Tokens for user account logins."), __jsx("a", {
     href: "https://github.com/ethueter/the-analyst",
     __source: {
       fileName: _jsxFileName,
@@ -22223,6 +22226,7 @@ var Projects = function Projects() {
     },
     __self: this
   }, "Repo")))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Card"], {
+    className: "project-card",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 75
@@ -22245,12 +22249,14 @@ var Projects = function Projects() {
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardTitle"], {
+    className: "card-head",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 83
     },
     __self: this
   }, "Task List"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardSubtitle"], {
+    className: "card-subhead",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 84
@@ -22262,7 +22268,7 @@ var Projects = function Projects() {
       lineNumber: 85
     },
     __self: this
-  }, "Description of the React Native app."), __jsx("a", {
+  }, "First forey into mobile development. Designed with React Native on the Expo platform, the app relies on Parse Server and MongoDB to persist data. Users can add, edit, and delete tasks as well as toggle between completed and upcoming tasks."), __jsx("a", {
     href: "https://github.com/ethueter/blog-task-list",
     __source: {
       fileName: _jsxFileName,
@@ -22278,6 +22284,7 @@ var Projects = function Projects() {
     },
     __self: this
   }, "Repo")))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Card"], {
+    className: "project-card",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 93
@@ -22300,31 +22307,26 @@ var Projects = function Projects() {
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardTitle"], {
-    className: "text-center",
+    className: "card-head",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 101
     },
     __self: this
-  }, __jsx("strong", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 101
-    },
-    __self: this
-  }, "This Site")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardSubtitle"], {
+  }, "This Site"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardSubtitle"], {
+    className: "card-subhead",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 102
     },
     __self: this
-  }, "Client Side"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardText"], {
+  }, "Static Site"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardText"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 103
     },
     __self: this
-  }, "Game logic and graphic design."), __jsx("a", {
+  }, "This site is just a quick intro into me. Put together on the Next.js React framework it also relies on Reactstrap to connect in Bootstrap 4 components."), __jsx("a", {
     href: "https://github.com/ethueter/ethueterResume",
     __source: {
       fileName: _jsxFileName,

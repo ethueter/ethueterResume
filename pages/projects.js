@@ -54,7 +54,7 @@ const Projects = () => {
                   </a>
                 </CardBody>
               </Card>
-              <Card>
+              <Card className="project-card">
                 <CardImg
                   top
                   width="100%"
@@ -62,17 +62,17 @@ const Projects = () => {
                   alt="ruby and rails logos"
                 />
                 <CardBody>
-                  <CardTitle>The Analyst</CardTitle>
-                  <CardSubtitle>Server Side</CardSubtitle>
+                  <CardTitle className="card-head">The Analyst</CardTitle>
+                  <CardSubtitle className="card-subhead">Server Side</CardSubtitle>
                   <CardText>
-                    Description of the backend of The Analyst.
+                    The backend of The Analyst was put together using Ruby, and Rails to connect a Postgres DB. It also incorporates bcrypt and JSON Web Tokens for user account logins. 
                   </CardText>
                   <a href="https://github.com/ethueter/the-analyst">
                     <Button outline color="primary">Repo</Button>
                   </a>
                 </CardBody>
               </Card>
-              <Card>
+              <Card className="project-card">
                 <CardImg
                   top
                   width="100%"
@@ -80,17 +80,17 @@ const Projects = () => {
                   alt="React Native logo"
                 />
                 <CardBody>
-                  <CardTitle>Task List</CardTitle>
-                  <CardSubtitle>Mobile ToDo List</CardSubtitle>
+                  <CardTitle className="card-head">Task List</CardTitle>
+                  <CardSubtitle className="card-subhead">Mobile ToDo List</CardSubtitle>
                   <CardText>
-                    Description of the React Native app.
+                    First forey into mobile development. Designed with React Native on the Expo platform, the app relies on Parse Server and MongoDB to persist data. Users can add, edit, and delete tasks as well as toggle between completed and upcoming tasks.
                   </CardText>
                 <a href="https://github.com/ethueter/blog-task-list">
                     <Button outline color="primary">Repo</Button>
                 </a>
                 </CardBody>
               </Card>
-              <Card>
+              <Card className="project-card">
                 <CardImg
                   top
                   width="50%"
@@ -98,10 +98,10 @@ const Projects = () => {
                   alt="Card image cap"
                 />
                 <CardBody>
-                                <CardTitle className="text-center"><strong>This Site</strong></CardTitle>
-                  <CardSubtitle>Client Side</CardSubtitle>
+                  <CardTitle className="card-head">This Site</CardTitle>
+                  <CardSubtitle className="card-subhead">Static Site</CardSubtitle>
                   <CardText>
-                    Game logic and graphic design.
+                    This site is just a quick intro into me. Put together on the Next.js React framework it also relies on Reactstrap to connect in Bootstrap 4 components.
                   </CardText>
                     <a href="https://github.com/ethueter/ethueterResume">
                         <Button 
