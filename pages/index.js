@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import Layout from '../components/Layout'
+import './index.css';
+import Layout from '../components/Layout';
 import Head from 'next/head';
 import Jumbo from "../components/Jumbo";
 import CardContainer from '../components/CardContainer';

@@ -29,7 +29,7 @@ const Projects = () => {
           <h1>Featured Projects</h1>
           <div>
             <CardDeck>
-              <Card>
+              <Card className="project-card">
                 <CardImg
                   top
                   width="100%"
@@ -37,10 +37,10 @@ const Projects = () => {
                   alt="react js logo"
                 />
                 <CardBody>
-                  <CardTitle>The Analyst</CardTitle>
-                  <CardSubtitle>Client Side</CardSubtitle>
+                  <CardTitle className="card-head">The Analyst</CardTitle>
+                  <CardSubtitle className="card-subhead">Client Side</CardSubtitle>
                   <CardText>
-                    This will be a description of the frontend of The Analyst Project
+                    How do we rate bias in our news when we don't know where it is coming from? The sourse of a news article is only reveled after a user applies their own bias rating. How does your favorite news site rate?
                   </CardText>
                   <a href="http://the-analyst.herokuapp.com/">
                     <Button 
@@ -67,7 +67,7 @@ const Projects = () => {
                   <CardText>
                     Description of the backend of The Analyst.
                   </CardText>
-                  <a href="">
+                  <a href="https://github.com/ethueter/the-analyst">
                     <Button outline color="primary">Repo</Button>
                   </a>
                 </CardBody>
@@ -76,7 +76,7 @@ const Projects = () => {
                 <CardImg
                   top
                   width="100%"
-                  src="/react.png"
+                  src="/react1.png"
                   alt="React Native logo"
                 />
                 <CardBody>
@@ -85,7 +85,7 @@ const Projects = () => {
                   <CardText>
                     Description of the React Native app.
                   </CardText>
-                <a href="">
+                <a href="https://github.com/ethueter/blog-task-list">
                     <Button outline color="primary">Repo</Button>
                 </a>
                 </CardBody>
@@ -93,17 +93,17 @@ const Projects = () => {
               <Card>
                 <CardImg
                   top
-                  width="100%"
-                  src="/javascript.png"
+                  width="50%"
+                  src="/mysite.png"
                   alt="Card image cap"
                 />
                 <CardBody>
-                  <CardTitle className="text-center">Flatiron, The Game</CardTitle>
+                                <CardTitle className="text-center"><strong>This Site</strong></CardTitle>
                   <CardSubtitle>Client Side</CardSubtitle>
                   <CardText>
                     Game logic and graphic design.
                   </CardText>
-                    <a href="">
+                    <a href="https://github.com/ethueter/ethueterResume">
                         <Button 
                         outline 
                         color="primary"

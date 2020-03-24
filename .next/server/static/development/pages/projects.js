@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2144,6 +2144,7 @@ const Projects = () => {
     },
     __self: undefined
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Card"], {
+    className: "project-card",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 32
@@ -2166,12 +2167,14 @@ const Projects = () => {
     },
     __self: undefined
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["CardTitle"], {
+    className: "card-head",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 40
     },
     __self: undefined
   }, "The Analyst"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["CardSubtitle"], {
+    className: "card-subhead",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 41
@@ -2183,7 +2186,7 @@ const Projects = () => {
       lineNumber: 42
     },
     __self: undefined
-  }, "This will be a description of the frontend of The Analyst Project"), __jsx("a", {
+  }, "How do we rate bias in our news when we don't know where it is coming from? The sourse of a news article is only reveled after a user applies their own bias rating. How does your favorite news site rate?"), __jsx("a", {
     href: "http://the-analyst.herokuapp.com/",
     __source: {
       fileName: _jsxFileName,
@@ -2257,7 +2260,7 @@ const Projects = () => {
     },
     __self: undefined
   }, "Description of the backend of The Analyst."), __jsx("a", {
-    href: "",
+    href: "https://github.com/ethueter/the-analyst",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 70
@@ -2280,7 +2283,7 @@ const Projects = () => {
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["CardImg"], {
     top: true,
     width: "100%",
-    src: "/react.png",
+    src: "/react1.png",
     alt: "React Native logo",
     __source: {
       fileName: _jsxFileName,
@@ -2312,7 +2315,7 @@ const Projects = () => {
     },
     __self: undefined
   }, "Description of the React Native app."), __jsx("a", {
-    href: "",
+    href: "https://github.com/ethueter/blog-task-list",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 88
@@ -2334,8 +2337,8 @@ const Projects = () => {
     __self: undefined
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["CardImg"], {
     top: true,
-    width: "100%",
-    src: "/javascript.png",
+    width: "50%",
+    src: "/mysite.png",
     alt: "Card image cap",
     __source: {
       fileName: _jsxFileName,
@@ -2355,7 +2358,13 @@ const Projects = () => {
       lineNumber: 101
     },
     __self: undefined
-  }, "Flatiron, The Game"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["CardSubtitle"], {
+  }, __jsx("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 101
+    },
+    __self: undefined
+  }, "This Site")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["CardSubtitle"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 102
@@ -2368,7 +2377,7 @@ const Projects = () => {
     },
     __self: undefined
   }, "Game logic and graphic design."), __jsx("a", {
-    href: "",
+    href: "https://github.com/ethueter/ethueterResume",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 106
@@ -2389,7 +2398,7 @@ const Projects = () => {
 
 /***/ }),
 
-/***/ 6:
+/***/ 5:
 /*!*********************************!*\
   !*** multi ./pages/projects.js ***!
   \*********************************/

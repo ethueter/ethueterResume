@@ -1,0 +1,14 @@
+.card-head {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold
+
+}
+
+.project-card {
+    border: solid 2px;
+}
+
+.card-subhead {
+    padding-bottom: 10px
+}
