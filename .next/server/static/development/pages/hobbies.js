@@ -244,123 +244,104 @@ const Example = props => {
       lineNumber: 19
     },
     __self: undefined
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["NavbarBrand"], {
-    href: "/",
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Nav"], {
+    className: "mr-auto",
+    navbar: true,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
     },
     __self: undefined
-  }, "Resume Site"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Nav"], {
-    className: "mr-auto",
-    navbar: true,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: undefined
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["NavItem"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 21
     },
     __self: undefined
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 22
     },
     __self: undefined
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 23
     },
     __self: undefined
   }, "Home"))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["NavItem"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: undefined
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/about",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: undefined
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: undefined
-  }, "About"))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["NavItem"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: undefined
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/projects",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: undefined
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: undefined
-  }, "Projects"))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["NavItem"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 26
     },
     __self: undefined
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/work",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 27
     },
     __self: undefined
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 28
     },
     __self: undefined
   }, "Work"))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["NavItem"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 31
+    },
+    __self: undefined
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/projects",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: undefined
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: undefined
+  }, "Projects"))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["NavItem"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
     },
     __self: undefined
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/hobbies",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 37
     },
     __self: undefined
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 38
     },
     __self: undefined
-  }, "Hobbies")))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["NavbarText"], {
+  }, "Hobbies")))), __jsx("a", {
+    href: "mailto:tyler_hueter@yahoo.com",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 42
     },
     __self: undefined
-  }, "Simple Text")));
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["NavbarText"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: undefined
+  }, "Contact"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Example);
