@@ -22,7 +22,11 @@ const Work = () => {
             padd="20px"
           />
           <div>
-              <h5>2009-2018</h5>
+            <div style={{flexDirection: "row"}}>
+              <h5>Charleston Green Taxi LLC</h5>
+              <h5 style={{textAlign: 'right'}}>2009-2018</h5>
+            </div>
+              
             <h3>
               Managed daily operations for metropolitan transportation service
               with 50+ drivers and 25 vehicles serving Greater Charleston.
