@@ -22,11 +22,10 @@ const Work = () => {
             padd="20px"
           />
           <div>
-            <div style={{flexDirection: "row"}}>
-              <h5>Charleston Green Taxi LLC</h5>
-              <h5 style={{textAlign: 'right'}}>2009-2018</h5>
+            <div>
+              <h3>Charleston Green Taxi LLC</h3>
+              <h5>2009 - 2018</h5>
             </div>
-              
             <h3>
               Managed daily operations for metropolitan transportation service
               with 50+ drivers and 25 vehicles serving Greater Charleston.
@@ -79,9 +78,12 @@ const Work = () => {
             padd="160px"
           />
           <div>
-                    <h5>March 2008 - December 2008</h5>
+            <div>
+              <h3>Ketner for Congress</h3>
+              <h5>Mar 2008 - Dec 2008</h5>
+            </div>
             <h3>
-              Planned and managed day-to-day operations of 15 paid staff and 50+
+              Planned and managed day-to-day operations of US Congressional Campaign with 15 paid staff and 50+
               volunteers across two campaign offices. Oversaw field, intern, and
               phone banking programs by setting outreach goals, developing
               scripts, conducting training and providing necessary networks
@@ -126,7 +128,10 @@ const Work = () => {
             padd="20px"
           />
           <div>
-                    <h5>1998-2006</h5>
+            <div>
+              <h3>Spoleto Festival USA</h3>
+              <h5>1998 - 2006</h5>
+            </div>
             <h3>
               Oversaw all aspects of ticket sales and customer service for 17 day performing arts festival. Festival hosted 140+ performances across 12+ venues annually with sales revenue exceeding $2M.
             </h3>
